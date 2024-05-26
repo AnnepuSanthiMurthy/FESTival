@@ -2,7 +2,7 @@
 
 ## Overview
 
-Tech Fest 2024 is a comprehensive platform designed for university students to easily book tickets for various cultural and technical festivals. The website provides a centralized location for students to discover and register for events, workshops, hackathons, and more without the need to search online repeatedly.
+FEST Website is a comprehensive platform designed for university students to easily book tickets for various cultural and technical festivals. The website provides a centralized location for students to discover and register for events, workshops, hackathons, and more without the need to search online repeatedly.
 
 ## Features
 
