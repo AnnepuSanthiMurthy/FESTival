@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | Student FESTival Account</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: brown;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .link-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .link-container a {
+            color: #fff; /* Change the color to match your design */
+            text-decoration: none; /* Remove the underline */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sign Up</h1>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <form id="applicationForm">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="pass" placeholder="password" required>
+                <input type="text" id="rollno" placeholder="Student ID" required>
+                <input type="text" id="department" placeholder="Department of Study" required>
+                <button type="submit">Sign Up</button>
+            </form>
+            <div class="link-container">
+                <a href="gitam.html">Already have an Account?</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Student Code. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('applicationForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("passowrd").value;
+            var rollno = document.getElementById("rollno").value;
+            var department = document.getElementById("department").value;
+            
+            if (name === "" || email === "" || rollno === "" || department === ""|| password === "") {
+                alert("Please fill out all fields.");
+                return false;
+            }
+            
+            // Redirect to the homepage after successful validation
+            window.location.href = "homepage.html";
+        });
+    </script>
+</body>
+</html>
+

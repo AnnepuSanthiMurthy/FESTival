@@ -1,0 +1,65 @@
+.okay
+{
+    background:rgba(0, 0, 0, 0.5 ) url("homepic.jpg");
+    background-blend-mode: darken;
+    background-size: contain;
+    height: 900px;
+    scroll-behavior: auto;
+    background-repeat: no-repeat;
+    backdrop-filter: brightness(100%);
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+
+.CREATEACCOUNT{
+    background-color: transparent;
+    
+    border: 0;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.CREATEACCOUNT:hover{
+    cursor: pointer;
+    font-size: 17px;
+   
+
+}
+.makemy{
+    color: white;
+    display: inline-block;
+    margin-right: 1060px;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+.pfont{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight:750;
+    margin-top: 150px;
+    margin-left: 250px;
+    line-height: 0px;
+}
+.explore{
+    margin-left: 290px;
+    color: white;
+    font-size: 25px;
+
+}
+.Explorebutton button{
+    margin-left: 250px;
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+    border-radius: 2px;
+    border: 0;
+}
+
+
