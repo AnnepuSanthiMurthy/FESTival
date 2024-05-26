@@ -1,4 +1,4 @@
-# Tech Fest 2024
+#FESTival
 
 ## Overview
 
