@@ -17,6 +17,41 @@ FESTival is the main website designed to simplify the process for university stu
 1. **Header**: 
     - Contains the main navigation buttons: HOME, CULTURAL, TECHNICAL, ABOUT US.
     - The TECHNICAL button links to another page (`index1.html`) which provides information specific to technical fests.
+# Tech Fest 2024
+
+## Overview
+
+Tech Fest 2024 is a comprehensive platform designed for university students to easily book tickets for various cultural and technical festivals. The website provides a centralized location for students to discover and register for events, workshops, hackathons, and more without the need to search online repeatedly.
+
+## Features
+
+- **Centralized Booking**: Book tickets for multiple events from a single platform.
+- **Event Listings**: Detailed listings of workshops, hackathons, and other events.
+- **Schedule**: View the schedule of events to plan your attendance.
+- **Speaker Profiles**: Learn more about the speakers presenting at the events.
+- **User-Friendly Navigation**: Easily navigate through the website to find information quickly.
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/tech-fest-2024.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd tech-fest-2024
+    ```
+
+3. Open the `index.html` file in your web browser to view the website:
+    ```bash
+    open index.html
+    ```
+
+
+
+
+
 
 2. **Hero Section**:
     - Displays a motivational message about booking the next fest.
